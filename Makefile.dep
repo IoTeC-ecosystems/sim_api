@@ -1,0 +1,6 @@
+USEMODULE += at
+USEMODULE += ztimer_msec
+USEMODULE += ztimer_usec
+
+FEATURE_REQUIRED += periph_gpio
+FEATURE_REQUIRED += periph_uart
